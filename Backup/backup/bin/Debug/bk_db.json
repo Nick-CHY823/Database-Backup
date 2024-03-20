@@ -1,0 +1,108 @@
+[
+    {
+        "server": "172.17.9.187",
+        "user": "backup",
+        "password": "backup",
+        "databases": [
+            {
+                "name": "amms",
+                "bkPath": "Z:\\"
+            }
+        ]
+    },
+    {
+        "server":"172.17.12.210",
+        "user":"backup",
+        "password":"backup",
+        "databases":[
+            {
+                "name":"cfp",
+                "bkPath": "Z:\\"
+            }
+        ]
+    },
+    {
+        "server":"172.17.65.10",
+        "user":"backup",
+        "password":"backup",
+        "databases":[
+            {
+                "name":"cfpphx",
+                "tables": ["cfp_ext_tl",
+                "cfp_ps_tl",
+                "cfp_pt_header_1",
+                "cfp_pt_output_2",
+                "cfp_pt_scrap_3",
+                "cfp_pt_downtime_4",
+                "cfp_pt_ext_usage_5",
+                "cfp_pt_pre_input_6",
+                "chart",
+                "custom",
+                "formats",
+                "invent",
+                "ordtab",
+                "packcode",
+                "pallet_line",
+                "pallets",
+                "transaction"],
+                "bkPath": "Z:\\"
+            }
+        ]
+    },
+    {
+        "server":"172.16.12.22",
+        "user":"backup",
+        "password":"backup",
+        "databases":[
+            {
+                "name":"pinnacle",
+                "bkPath": "Z:\\"
+            }
+        ]
+    },
+    {
+        "server":"172.17.68.40",
+        "user":"backup",
+        "password":"backup",
+        "databases":[
+            {
+                "name":"cfprem",
+                "bkPath": "Z:\\"
+            }
+        ]
+    },
+    {
+        "server":"172.17.8.80",
+        "user":"backup",
+        "password":"backup",
+        "databases":[
+            {
+                "name":"qc",
+                "bkPath": "Z:\\"
+            }
+        ]
+    },
+    {
+        "server":"172.16.33.95",
+        "user":"backup",
+        "password":"backup",
+        "databases":[
+            {
+                "name":"vamt",
+                "bkPath": "Z:\\"
+            }
+        ]
+    },
+    {
+        "server":"meit.amtopp.com",
+        "user":"amtoppme",
+        "password":"Network01",
+        "databases":[
+            {
+                "name":"bp2",
+                "tables": ["bp2_pallet"],
+                "bkPath": "Z:\\"
+            }
+        ]
+    }
+]
