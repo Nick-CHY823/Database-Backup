@@ -1,6 +1,6 @@
 [
     {
-        "server": "172.17.9.187",
+        "server": "00.00.00.00",
         "user": "backup",
         "password": "backup",
         "databases": [
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "server":"172.17.12.210",
+        "server":"00.00.00.00",
         "user":"backup",
         "password":"backup",
         "databases":[
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "server":"172.17.65.10",
+        "server":"00.00.00.00",
         "user":"backup",
         "password":"backup",
         "databases":[
@@ -45,62 +45,6 @@
                 "pallet_line",
                 "pallets",
                 "transaction"],
-                "bkPath": "Z:\\"
-            }
-        ]
-    },
-    {
-        "server":"172.16.12.22",
-        "user":"backup",
-        "password":"backup",
-        "databases":[
-            {
-                "name":"pinnacle",
-                "bkPath": "Z:\\"
-            }
-        ]
-    },
-    {
-        "server":"172.17.68.40",
-        "user":"backup",
-        "password":"backup",
-        "databases":[
-            {
-                "name":"cfprem",
-                "bkPath": "Z:\\"
-            }
-        ]
-    },
-    {
-        "server":"172.17.8.80",
-        "user":"backup",
-        "password":"backup",
-        "databases":[
-            {
-                "name":"qc",
-                "bkPath": "Z:\\"
-            }
-        ]
-    },
-    {
-        "server":"172.16.33.95",
-        "user":"backup",
-        "password":"backup",
-        "databases":[
-            {
-                "name":"vamt",
-                "bkPath": "Z:\\"
-            }
-        ]
-    },
-    {
-        "server":"meit.amtopp.com",
-        "user":"amtoppme",
-        "password":"Network01",
-        "databases":[
-            {
-                "name":"bp2",
-                "tables": ["bp2_pallet"],
                 "bkPath": "Z:\\"
             }
         ]
